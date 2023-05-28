@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 10px;
+    width: 1120px;
+    margin: 0 auto;
+    overflow: auto;
+}
+:root {
+    --color-yellow: #fff206;
+  }
+.logo{
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.menu{
+    flex-grow: 1;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: #333333;
+}
+.menu ul li{
+    margin-right: 20px;
+    padding: 5px 5px 10px;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 1px solid black;
+}
+  .clearfix {
+    clear: both;
+  }
+  .container {
+    width: 1120px;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+  }
+  /* Form-Choose-Home */
+  .title-home {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .image-home {
+    height: 150px;
+  }
+  .image-home img {
+    width: 100%;
+  }
+  #form-choose-home {
+    overflow: auto;
+    /* background-color: var(--color-yellow); */
+  }
+  .choose-home {
+    display: inline-table;
+    text-align: center;
+    /* Căn giữa chữ ở trong 1 layout */
+    /* padding-left: 54px; */
+    width: 280px;
+    height: 230px;
+  }
+  /* Title: Về Chúng Tôi */
+  #title-center {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+  }
+  /* Form-Cty */
+  .button-choose {
+    text-align: center;
+    width: 380px;
+    height: 280px;
+  }
+  .image-cty {
+    width: 362px;
+    height: 200px;
+  }
+  .image-cty img {
+    width: 100%;
+  }
+  .title-cty {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #f1fafd;
+  }
+  #form-cty {
+    overflow: auto;
+  }
+  /* Bottom-content */
+  #form-title-bottom {
+    background-color: #fff206;
+  }
+  #title-bottom {
+    display: flex;
+  }
+  .title-left,
+  .title-center,
+  .title-right {
+    width: 25%;
+    margin: 20px 85px 0 0;
+    font-weight: 500;
+  }
+  .title-bold-bottom {
+    font-weight: bold;
+    line-height: 20px;
+  }
+  .title-left {
+    font-weight: bold;
+  }
+  .title-center > ul,
+  .title-left > ul {
+    list-style: none;
+    line-height: 20px;
+  }
